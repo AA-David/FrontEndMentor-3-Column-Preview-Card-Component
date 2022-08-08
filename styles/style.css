@@ -3,9 +3,7 @@ body {
   margin: 0;
   padding: 0;
   color: rgba(255, 255, 255, 0.75);
-  background-color: #f2f2f2;
-  background-image: -webkit-gradient(linear, right bottom, left top, from(#546E7A), to(#607D8B));
-  background-image: linear-gradient(to top left, #546E7A, #607D8B);
+  background: #7ba9ad;
   height: 600px;
   font-size: 15px;
   font-family: 'Lexend Deca', sans-serif;
