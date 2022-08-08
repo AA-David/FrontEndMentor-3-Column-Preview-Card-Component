@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+
+    color: hsla(0, 0%, 100%, 0.75);
+    
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+
+    .container {
+        margin: 4vh 2vh;
+        padding: 0px;
+
+        a {
+            text-decoration: none;
+
+            p {
+                padding: 10px;
+
+                background: hsl(0, 0%, 95%);
+                border-radius: 50px;
+                text-align: center;
+            }
+        }
+
+        .sedan {
+            margin: 0;
+            padding: 40px;
+    
+            background: hsl(31, 77%, 52%);
+
+            h1 {
+                margin-top: 10px;
+                margin-bottom: 30px;
+                font-family: 'Big Shoulders Display', 'Lexend Deca', sans-serif;
+                font-size: 50px;
+            }
+    
+            p {
+                margin: 0;
+                margin-bottom: 20px;
+            }
+
+            .sedan-btn {
+                p {
+                    color: hsl(31, 77%, 52%);
+                }
+            }
+
+            .sedan-btn:hover {
+                p {
+                    border: 1px white solid;
+                    background: hsl(31, 77%, 52%);
+                    color: white;
+                }
+            }
+        }
+    
+        .suv {
+            margin: 0;
+            padding: 40px;
+    
+            background: hsl(184, 100%, 22%);
+
+            h1 {
+                margin-top: 10px;
+                margin-bottom: 30px;
+                font-family: 'Big Shoulders Display', 'Lexend Deca', sans-serif;
+                font-size: 50px;
+            }
+    
+            p {
+                margin: 0;
+                margin-bottom: 20px;
+            }
+
+            .suv-btn {
+                p {
+                    color: hsl(184, 100%, 22%);
+                }
+            }
+
+            .suv-btn:hover {
+                p {
+                    border: 1px white solid;
+                    background: hsl(184, 100%, 22%);
+                    color: white;
+                }
+            }
+        }
+    
+        .luxury {
+            margin: 0;
+            padding: 40px;
+    
+            background: hsl(179, 100%, 13%);
+
+            h1 {
+                margin-top: 10px;
+                margin-bottom: 30px;
+                font-family: 'Big Shoulders Display', 'Lexend Deca', sans-serif;
+                font-size: 50px;
+            }
+    
+            p {
+                margin: 0;
+                margin-bottom: 20px;
+            }
+
+            .luxury-btn {
+                p {
+                    color: hsl(179, 100%, 13%);
+                }
+            }
+
+            .luxury-btn:hover {
+                p {
+                    border: 1px white solid;
+                    background: hsl(179, 100%, 13%);
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:800px) {
+    body {
+        margin: 5% 10%;
+        overflow-y: hidden;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+
+        .sedan {
+            h1 {
+                margin-bottom: 50px;
+            }
+
+            p {
+                margin-top: 100px;
+            }
+
+            .sedan-btn {
+                p {
+                    margin-top: 100px;
+                }
+            }
+        }
+
+        .suv {
+            h1 {
+                margin-bottom: 50px;
+            }
+
+            p {
+                margin-top: 100px;
+            }
+
+            .suv-btn {
+                p {
+                    margin-top: 100px;
+                }
+            }
+        }
+
+        .luxury {
+            h1 {
+                margin-bottom: 50px;
+            }
+
+            p {
+                margin-top: 100px;
+            }
+
+            .luxury-btn {
+                p {
+                    margin-top: 100px;
+                }
+            }
+        }
+    }
+}
