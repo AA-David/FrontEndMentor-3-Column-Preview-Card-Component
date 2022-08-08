@@ -3,6 +3,10 @@ body {
   margin: 0;
   padding: 0;
   color: rgba(255, 255, 255, 0.75);
+  background-color: #f2f2f2;
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#546E7A), to(#607D8B));
+  background-image: linear-gradient(to top left, #546E7A, #607D8B);
+  height: 600px;
   font-size: 15px;
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
@@ -19,7 +23,7 @@ body .container a {
 
 body .container a p {
   padding: 10px;
-  background: #f2f2f2;
+  background: white;
   border-radius: 50px;
   text-align: center;
 }
@@ -27,7 +31,9 @@ body .container a p {
 body .container .sedan {
   margin: 0;
   padding: 40px;
-  background: #e38826;
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#e38826), to(#e2b54d));
+  background-image: linear-gradient(to top left, #e38826, #e2b54d);
+  border-radius: 10px 0 0 10px;
 }
 
 body .container .sedan h1 {
@@ -43,19 +49,25 @@ body .container .sedan p {
 }
 
 body .container .sedan .sedan-btn p {
+  border: 1px white solid;
   color: #e38826;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
 }
 
 body .container .sedan .sedan-btn:hover p {
   border: 1px white solid;
   background: #e38826;
   color: white;
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
 }
 
 body .container .suv {
   margin: 0;
   padding: 40px;
-  background: #006970;
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#006970), to(#3b9097));
+  background-image: linear-gradient(to top left, #006970, #3b9097);
 }
 
 body .container .suv h1 {
@@ -71,19 +83,26 @@ body .container .suv p {
 }
 
 body .container .suv .suv-btn p {
+  border: 1px white solid;
   color: #006970;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
 }
 
 body .container .suv .suv-btn:hover p {
   border: 1px white solid;
   background: #006970;
   color: white;
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
 }
 
 body .container .luxury {
   margin: 0;
   padding: 40px;
-  background: #004241;
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#004241), to(#247a78));
+  background-image: linear-gradient(to top left, #004241, #247a78);
+  border-radius: 0 10px 10px 0;
 }
 
 body .container .luxury h1 {
@@ -100,12 +119,17 @@ body .container .luxury p {
 
 body .container .luxury .luxury-btn p {
   color: #004241;
+  border: 1px #004241 solid;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
 }
 
 body .container .luxury .luxury-btn:hover p {
   border: 1px white solid;
   background: #004241;
   color: white;
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
 }
 
 @media (min-width: 800px) {
